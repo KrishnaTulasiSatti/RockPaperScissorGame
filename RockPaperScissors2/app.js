@@ -88,16 +88,16 @@ mode.addEventListener("click",() => {
         b.style.backgroundColor = "black";
         
         wpns.forEach((wpn) => {
-            wpn.style.backgroundColor = "#121212";
+            wpn.style.backgroundColor = "#1e272e";
         });
 
         score.forEach((sc) => {
             sc.style.color = "white";
         });
 
-        msg.style.backgroundColor = "#121212";
+        msg.style.backgroundColor = "#1e272e";
         mode.innerText = "Try LIGHT MODE!!";
-        mode.style.backgroundColor = "#121212";
+        mode.style.backgroundColor = "#1e272e";
 
     }
     else {
